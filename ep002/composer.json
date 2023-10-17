@@ -1,0 +1,23 @@
+{
+    "name": "hector-vs/phptips002",
+    "description": "CRUD DO JEITO CERTO: ABSTRAÇÃO DE BANCO DE DADOS COM DATA LAYER | PHP Tips #002",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector V. Saldivar",
+            "email": "hectorvieirasaldivar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "2.0.*"
+    }
+}

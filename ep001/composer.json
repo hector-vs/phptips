@@ -1,0 +1,28 @@
+{
+    "name": "hector-vs/phptips001",
+    "description": "Conhecendo o composer e configurando IDE | PHP Tips #001",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector V. Saldivar",
+            "email": "hectorvieirasaldivar@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/hector-vs"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
