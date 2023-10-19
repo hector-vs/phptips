@@ -1,0 +1,23 @@
+{
+    "name": "hector-vs/phptips003",
+    "description": "NVIANDO E-MAILS AUTENTICADOS EM SMTP COM PHPMAILER | PHP Tips #003",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector V. Saldivar",
+            "email": "hectorvieirasaldivar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.7"
+    }
+}
