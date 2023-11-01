@@ -17,6 +17,8 @@ $router->namespace("Source\App");
  */
 $router->group(null);
 $router->get("/", "Web:home");
+$router->get("/{filter}", "Web:home");
+$router->get("/{filter}/{page}", "Web:home");
 
 /*
  * ERROS
