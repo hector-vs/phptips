@@ -18,7 +18,31 @@ $router->namespace("Source\App");
 $router->group(null);
 $router->get("/", "Web:home");
 $router->get("/{filter}", "Web:home");
-$router->get("/{filter}/{page}", "Web:home");
+
+/*
+ * Blog 
+ */
+$router->group("blog");
+$router->get("/", "Web:blog");
+$router->get("/{post_uri}", "Web:post");
+$router->get("/{categoria}/{cat_uri}", "Web:category");
+
+
+/*
+ * Contato
+*/
+$router->group("contato");
+$router->get("/" , "Web:contact");
+$router->get("/{sector}" , "Web:contact");
+$router->get("/suporte" , "Web:support");
+
+/*
+ * ADMIN
+ * Home
+*/
+$router->group("admin");
+$router->get("/", "Admin:home");
+
 
 /*
  * ERROS
