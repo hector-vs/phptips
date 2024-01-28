@@ -1,0 +1,25 @@
+{
+    "name": "hector-vs/phptips005",
+    "description": "GERANDO BLOG COM PAGINAÇÃO DE RESULTADOS | PHP TIPS #005",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector V. Saldivar",
+            "email": "hectorvieirasaldivar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "fakerphp/faker": "1.23.*",
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/paginator": "1.0.*"
+    }
+}

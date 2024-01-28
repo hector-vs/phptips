@@ -64,7 +64,7 @@ class Email
 
             $this->mail->send();
             return true;
-        }cath(Exception $exception){
+        }catch(Exception $exception){
             $this->error = $exception;
             return false;
         }
